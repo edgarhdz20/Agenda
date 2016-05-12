@@ -1,0 +1,94 @@
+    div[data-role=page]{
+        height: 100% !important;
+        position:relative !important;
+    }
+
+    /*Contenido*/
+    #inicio div[data-role=content]{
+        display: flex;
+        height: 40%;
+        padding: 0;
+        background: blue;
+        text-align: center;
+    }
+
+    /*Botones*/
+    .ui-page-theme-a .ui-btn{
+        text-shadow:none;
+        border:none;
+        background: none;
+        box-shadow: none;
+        flex:1;
+        height: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    /*footer*/
+    .ui-page-theme-a .ui-footer{
+        background: lightblue;
+        border: 0;
+    }
+
+    div[data-role=footer]{
+        bottom:0;
+        position:absolute !important;
+        top: auto !important;
+        width:100%;
+        height: 10%;
+    }
+
+    /*Barra de navegacion*/
+    #inicio div[data-role=header]{
+        color: white;
+        margin: 0;
+        height: 50%;
+        background: darkblue;
+    }
+    
+    #inicio .ui-page-theme-a .ui-header{
+        border: 0;
+    }
+
+    /*Pagina Agenda*/
+    /*Barra de navegacion*/
+
+    #agenda div[data-role=content]{
+        margin: 0;
+        background: blue;
+        padding: 0;
+        margin: 0;
+        height: 85%;
+    }
+
+    #fecha{
+        background: lightblue;
+        width: 100%;
+        height: 5%;
+        margin: 0;
+        text-align: center;
+    }
+
+    #agenda div[data-role=navbar]{
+        height: 10%;
+        padding: 0;
+        background: blue;
+        text-align: center;
+        display: flex;
+    }
+
+    #lista{
+        width: 100%;
+        margin: 0;
+    }
+
+    #lista li{
+        background: blue;
+        height: 80px;
+        width: 100%;
+    }
+
+
+    .ui-listview>li.ui-first-child>a.ui-btn{
+        border: none;
+    }
